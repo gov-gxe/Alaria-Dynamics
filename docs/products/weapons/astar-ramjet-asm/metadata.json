@@ -1,0 +1,7 @@
+{
+  "sku":"AST-ASM-01",
+  "name":"Astar Ramjet ASM",
+  "range_km":200,
+  "guidance":"INS/GPS + active radar",
+  "category":"Weapons"
+}

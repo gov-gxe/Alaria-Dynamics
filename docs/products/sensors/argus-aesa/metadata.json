@@ -1,0 +1,7 @@
+{
+  "sku":"ARG-AESA-1",
+  "name":"Argus AESA Radar",
+  "band":"X/Ku",
+  "detection_range_km":100,
+  "category":"Sensors"
+}

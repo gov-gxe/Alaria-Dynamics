@@ -1,0 +1,9 @@
+{
+  "sku":"VAL-009",
+  "designation":"Valkyra MBT-9",
+  "role":"MBT",
+  "crew":3,
+  "weight_kg":65000,
+  "armor":"Composite/reactive",
+  "category":"Land"
+}

@@ -1,0 +1,10 @@
+{
+  "sku":"AUR-001",
+  "class_name":"Aurelia",
+  "displacement_t":45000,
+  "crew":1200,
+  "airwing_capacity":50,
+  "propulsion":"Integrated electric propulsion",
+  "production_status":"concept",
+  "category":"Naval"
+}
