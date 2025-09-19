@@ -1,0 +1,48 @@
+/* UI fixes and small enhancements for Aaria Dynamics prototype
+   - provides a light reset, responsive improvements, accessibility focus outlines
+   - intended to override minimal rules without changing core layout
+*/
+
+/* Reset adjustments */
+*{box-sizing:border-box}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+
+/* Improved typography */
+body{font-family:Segoe UI,Roboto,Arial,Helvetica,sans-serif;background:#fafafa}
+.wrap{max-width:1100px;padding:1.25rem;margin:0 auto}
+
+/* Header tweaks */
+.site-header{position:sticky;top:0;z-index:40;background:linear-gradient(180deg,#ffffffcc,#ffffffaa);backdrop-filter:blur(3px)}
+.site-header .wrap{gap:1rem}
+.brand{letter-spacing:.2px}
+
+/* Nav improvements */
+.main-nav a{padding:.375rem .5rem;border-radius:4px}
+.main-nav a:focus,.main-nav a:hover{background:#f0f8fa}
+
+/* Hero responsive */
+.hero{padding:2.25rem 0}
+.hero h1{font-size:clamp(1.5rem,2.5vw,2.25rem)}
+
+/* CTA and buttons */
+.cta{display:inline-block;font-weight:600}
+.cta:focus{outline:3px solid #cdeef6;outline-offset:2px}
+
+/* Product quick layout for narrow viewports */
+.product-quick{flex-direction:column}
+.product-quick img{width:100%;max-width:none}
+
+/* Table improvements */
+.specs th{background:#f7f9fa;font-weight:600}
+
+/* Footer */
+.site-footer{font-size:.95rem}
+
+/* Accessibility: visible focus for keyboard users */
+:focus{outline:2px dashed #0b5f79;outline-offset:3px}
+
+/* Minor responsive grid fix */
+@media (min-width:720px){
+  .product-quick{flex-direction:row}
+}

@@ -1,5 +1,7 @@
 :root{--accent:#0b5f79;--muted:#666}
 body{font-family:Arial,Helvetica,sans-serif;line-height:1.5;color:#222;margin:0}
+/* import UI fixes - keeps core styles small while allowing targeted overrides */
+@import url('ui-fix.css');
 .wrap{max-width:1000px;margin:0 auto;padding:1rem}
 .site-header{background:#fff;border-bottom:1px solid #eee}
 .site-header .wrap{display:flex;align-items:center;justify-content:space-between}
