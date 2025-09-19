@@ -1,0 +1,2 @@
+sku,designation,role,crew,dimensions,weight,propulsion,max_speed,range,service_ceiling,avionics,operators,variants,production_status,export_restrictions
+LF13-001,LF-13,Multirole fighter,1,"Length: 18.4m; Wingspan: 11.2m; Height: 4.7m","Empty: 13,200 kg; MTOW: 24,000 kg",Twin turbofan,"Mach 1.8",2800 km,55000 ft,"AESA radar; EO/IR; Sensor fusion","Restricted","A/B",Low-rate,"See export control"
